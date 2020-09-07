@@ -1,0 +1,236 @@
+<!-------------------------- Début de la partie méta information-------------- -->
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="author" content="Romain Molina/Hugo Aubriet/Irfan Bouhenaf" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo2.png" />
+	<title> Histoire </title>	
+	<meta name="keywords" content="Projet,HTML,Bootstrap,CSS,Site,TechnoWeb" />
+	<meta name="description" content=" Site du projet tutoré" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="projet.css">
+
+</head>
+
+<!-- ------------------------ Fin de la partie méta information-------------- -->
+
+<!-------------------------- Début de la page en général  ------------------- -->
+
+
+
+<body>
+	<div class="container" id=debut>	
+
+<!--------------------------- Début de la partie NavBar ---------------------- -->
+
+
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="fullsize" style="background-color: #5F9EA0;">
+			<div class="Title">
+				<a class="navbar-brand" href="accueil.html">
+					<img id="logo" src="images/logo3-1.png" alt="Logo">
+					La Réalité Augmentée
+				</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="accueil.html">Accueil <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown active">
+						<a class="nav-link dropdown-toggle" href="#" id="histoireDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Histoire</a>
+						<div class="dropdown-menu" aria-labelledby="histoireDropdown">
+							<a class="dropdown-item" href="histoire.html#hist2">L'épée de Damoclès par Ivan Sutherland (1968)</a>
+							<a class="dropdown-item" href="histoire.html#hist4">Le système HUD (années 1980)</a>
+							<a class="dropdown-item" href="histoire.html#hist5">L'invention de Tom Caudell et David Mizell (début des années 1990)</a>
+							<a class="dropdown-item" href="histoire.html#hist6">L'invention de Rekimoto (1994)</a>
+						</div>
+					</li>
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="techDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> La technologie actuelle  </a>
+						<div class="dropdown-menu" aria-labelledby="techDropdown">
+							<a class="dropdown-item" href="tech_ac.html#tech1"> Création de solide </a>
+							<a class="dropdown-item" href="tech_ac.html#tech2"> Aide au calcul </a>
+							<a class="dropdown-item" href="tech_ac.html#tech3"> Aide à la navigation</a>
+							<a class="dropdown-item" href="tech_ac.html#tech4"> Divertissement </a>
+							<a class="dropdown-item" href="tech_ac.html#tech5"> Problèmes d'utilisation</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="futur.html">Avenir</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="sources.html">Sources</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="personne.html">L'équipe</a>
+					</li>
+				</ul>
+				<span class="navbar-text" id="navtexte">
+					L'histoire de la réalité augmentée
+				</span>
+			</div>
+		</nav>
+
+<!--------------------------- Fin de la partie NavBar ---------------------- -->
+
+<!-------------------------- Début de la partie Texte de la page------------------- -->
+		
+		<span id="hist2" class="ancre" ></span>
+		<div  class="col-sm-10 center-object div-para">
+			<h2  class="text-center"> L'épée de Damoclès par Ivan Sutherland (1968)</h2>
+			<h4  class="text-center">Histoire</h4>
+			<p>Ivan Sutherland est un ingénieur en informatique américain né en 1938 et est célèbre grâce à ses différentes inventions révolutionnaires et l'épée de Damoclès en est une.</br>
+			<img class="img-fluid espace" src="images/histoire.png" alt="Epee de damoclès"> </p>
+			<p class="centre"> Photo de l'Epee de Damocles </p> </br>
+			<p>	L'Epee de Damoclès est un dispositif que de nombreux experts considèrent aujourd'hui comme l’ancêtre des visio­casques et autres casques de réalité virtuelle et augmentée, c'est donc entre autres le précurseur de la réalité augmentée. </br>
+				En effet, sa création a permis de nombreuses avancées technologiques. </br>
+			<h4  class="text-center">Comment cela fonctionne ?</h4>
+				Il se composait de <b>deux tubes cathodiques</b> qui ont permis aux utilisateurs de voir des images superposées sur le monde qui les entoure </br>
+				La grande caractéristique de ce dispositif réside dans la détection de mouvement dont des capteurs sont intégrés au casques l’un mécanique et l’autre ultrasonique) qui sont utilisés pour mesurer la position de la tête et modifier l’image en fonction du mouvement de la tête de l’utilisateur. </br>
+				Cependant, à cause de son poids, ce casque devait être soutenu par un bras mécanique qui empêchait l'utilisateur de bouger librement. En effet, il était suspendu au plafond en dessus de la tête.</br>
+				D'après son créateur, il explique comment le dispositif fonctionne : <i>« L’idée fondamentale derrière ce dispositif en trois dimensions est de proposer à l’utilisateur une image en perspective qui se modifie lorsqu’il bouge. L’image doit se modifier exactement de la même manière que se transforme l’image d’un objet réel lorsque l’utilisateur bouge sa tête »</i> </br>
+				<img class="img-fluid espace" src="images/damocles2.png" alt="Schéma fonctionnement du dispositif"> </p>
+				<p class="centre"> Schéma explicatif de l'Epée de Damoclès </p> </br>
+				<p>Les étapes du fonctionnement du dispositif sont : </br>
+				<ol>
+					<li> Le dispositif de mesure de la position de la tête alimente un ordinateur </li>
+					<li> L'ordinateur a envoyé les informations à un multiplicateur matriciel qui était responsable de la transformation de rotation </li>
+					<li> L'information a ensuite été transmise à un dispositif de détourage qui a effectué la transformation de perspective </li>
+					<li> Enfin, les informations sont allées à un pilote d'affichage analogique qui a ensuite affiché les informations sur le casque à tube cathodique </li>
+				</ol>
+				Les images crées par l'Epee de Damoclès n'étaient pas très réalistes et se composaient de pièces et d'objets transparents en fil de fer. </br>
+				La puissance de calcul permettant à L'Epee de Damoclès de créer des images est <b>le PDP-1</b>, c'est le premier ordinateur construit par la société américaine Digital Equipment Corporation <b>(DEC)</b> de 1959 à 1970. </br>
+				<img class="img-fluid espace" src="images/PDP-1.jpg" alt="Ordinateur PDP-1"></p>
+				<p class="centre"> Ordinateur PDP-1 </p> </br>
+				<p>Ses caractéristiques techniques sont : </br>
+				<ul>
+					<li> Processeur 18 bits </li>
+					<li> Mémoire : 4096 mots de 18 bits </li>
+					<li> Entrée sortie de données : écran / clavier / cartes perforées </li>
+					<li> Options : stylo optique, écran haute résolution, bandes magnétiques </li>
+					<li> Logiciels fournis : Editeur, Assembleur et Debuggeur </li>
+					<li> Prix : 120000 $ </li>
+				</ul>
+				</p>
+		</div>
+		<span id="hist4" class="ancre" ></span>
+		<div class="col-sm-10 center-object div-para">
+			<h2 class="text-center"> Le Système HUD (années 1980) </h2>
+
+			<h4 class="text-center"> Définition </h4>
+			<p>Un afficheur tête haute, <i>ou HUD (head up display)</i>, est un système permettant d’afficher quelques informations à travers un écran transparent.</br>
+				Au début, cette technologie apparaît dans les cockpits d'avions puis dans les tableaux de bords des voitures et ainsi de suite. </br>
+				En effet, le système HUD provient tout d'abord de l'aviation militaire puisque cela permet au pilote de surveiller son environnement en même temps que des informations fournies par ses instruments de bord. </br>
+				Dans les véhicules, le système HUD permet de projeter sur le pare brise d’un véhicule des informations importantes liées à la conduite. Le conducteur peut personnaliser son affichage à sa guise, en ne gardant que ce dont il a besoin. </br>
+				En effet, cet affichage permet notamment de ne pas quitter la route des yeux quand l’automobiliste souhaite consulter des informations relatives à la conduite. </br>
+				Effectivement, l’HUD projette les informations nécessaires dans son champ de vision, généralement en bas, pour ne pas trop le gêner. </br>
+				En 1988, le système HUD apparaît dans le monde de l'automobile. En effet, General Motors avait décidé d’équiper <b>la Pontiac Grand Prix</b> d’un afficheur à tête haute de série. </br>
+				D’ailleurs, ce fut le premier constructeur automobile à utiliser cette technologie même si à l'époque, ce système n'était pas trop pratique. </br>
+				<img class="img-fluid espace" src="images/HUD2.jpg" alt="Système HUD dans la Pontiac Grand Prix"> </p>
+				<p class="centre"> Utilisation du système HUD dans la Pontiac Grand Prix </p> </br> 
+			<h4 class="text-center"> Comment cela fonctionne ? </h4>
+			<p> Afin de transmettre les informations fournies par l’ordinateur de bord de la voiture à la vision du conducteur, on utilise généralement un petit projecteur. </br>
+				Ce dernier va afficher les informations numérisées au préalable sur un ou plusieurs miroirs semi-transparents ou directement sur le pare brise du véhicule. </br>
+				Les miroirs semi-réfléchissants vont servir à projeter les images vers le conducteur. </br>
+				Ce dernier verra donc les informations devant lui, flottant dans les airs et situées à plusieurs mètres devant lui afin que le conducteur soit le seul à voir ces informations </br>
+				Cependant, les constructeurs ont choisi de restreindre le nombre d’informations sur l’affichage et ce dernier ne dépasse pas la taille d’une feuille A5, soit 14cm x 21cm, afin d'optimiser la place et d'afficher les informations les plus utiles. </br>
+				<img class="img-fluid espace" src="images/HUD1.jpg" alt="Schéma HUD simplifié"> </p>
+				<p class="centre"> Schéma d'utilisation du système HUD simplifié </br> </p>
+			<h4 class="text-center"> Autres exemples d'utilisation du système HUD </h4>
+			<h5 class="text-center"> Les jeux-vidéos </h5>
+			<p> Dans les jeux-vidéos, le système HUD est un mécanisme essentiel, fournissant des informations importantes directement sur l'écran et renseignant le joueur sur l'environnement : score, niveau, santé de son personnage, arme utilisée, nombre de munitions restantes etc ...  </br>
+			Les HUD se trouvaient, à l'origine, sur les jeux qui mettaient le joueur dans la peau d'une personne (jeu en vue subjective) ou au pilotage d'un véhicule (avion, vaisseau spatial, voiture, moto, bot de combat, bateau, sous-marin...). </br>
+			Dans la majorité des jeux, le HUD peut être desactivé via les options afin de ne pas être dérangé par les informations mais cela est déconseillé </br> </p>
+			<h5 class="text-center"> Le Eyetap </h5>
+			<p> Le Eyetap était au début une sorte de casque permettant d’afficher des informations virtuels devant les yeux du porteur. </br>
+				Mais au fil du temps, Steve Mann, un scientifique, développe cet appareil pour le rendre, aujourd’hui, aussi léger qu’une simple paire de lunettes. </br>
+				Il s’agit du premier véritable casque de réalité augmentée, un concept qui se développera jusqu’à devenir aussi léger qu’une paire de lunettes. </br> </p>
+				
+			
+				
+		</div>
+		<span id="hist5" class="ancre" ></span>
+		<div class="col-sm-10 center-object div-para">
+			<h2 class="text-center"> Le HUDset et la définition de la RA (années 1990) </h2>
+			<h4 class="text-center"> Histoire </h4>
+			<p> En 1992, le terme "réalité augmentée" apparaît pour la première fois. En effet, Tom Caudell et David Mizell, deux employés de Boeing, proposent ce terme et le définissent comme étant "la superposition de matériel informatisé sur le monde réel". </br>
+				Ils ont aussi lancé l'utilisation de la réalité augmentée dans un cadre industriel. </br>
+				Mais ils n'ont pas fait que cela, ils ont aussi crée leur propre invention en 1992, ce dernier utilise le système HUD et c'est appellé : <b>HUDset</b>, cela a permis aux employés de Boeing de faciliter leur travail. </br> </p>
+			<h4 class="text-center"> Comment cela fonctionne ? </h4>
+				Le HUDset sont des lunettes de Réalité Augmentée qui peuvent s'associer (normalement sans fil) avec des compilations, des armes intelligentes et d'autres dispositifs. Elles peuvent superposer des informations comme un affichage tête haute (d'où le nom) ou même afficher une vidéo entièrement opaque pour fonctionner comme un appareil de réalité virtuelle classique. </br>
+				La plupart incorporent une sortie audio soit par les écouteurs, soit par conduction osseuse. Les HUDset comprennent au moins des caméras vidéo et des microphones de base, bien que des ensembles plus avancés (surtout militaires) puissent inclure des suites complètes de capteurs pour la thermique, le radar, les ultrasons, etc. et ajouter des mesures de protection visuelle et auditive supplémentaires. </br>
+				Les fonctions vidéo de base peuvent être trouvées sous forme de lentilles de contact, bien qu'elles ne fonctionnent que comme des écrans pour des appareils appariés. </br>
+				<img class="img-fluid espace" src="images/HUDset.jpg" alt="HUDset"> </p>
+				<p class="centre"> Schéma du dispositif </br> </p>
+	
+				
+
+				
+</p>
+		</div>
+		<span id="hist6" class="ancre" ></span>
+		<div class="col-sm-10 center-object div-para">
+			<h2 class="text-center"> La NaviCam (1994) </h2>
+			<h4 class="text-center"> Histoire </h4>
+			<p>En 1994, Jun Rekimoto et Katashi Nagao, deux employés de Sony, ont développé un dispositif de système de réalité augmentée appellé NaviCam. </p> </br>
+			<h4 class="text-center"> Comment cela fonctionne ? </h4>
+			<p> Ce dernier utilise un capteur gyroscopique miniature pour déterminer l'orientation du dispositif, il possède également une capacité de reconnaissance d'identité basée sur la vision pour détecter une position approximative de l'appareil dans le monde réel et des objets du monde réel devant l'appareil et il était beaucoup plus rapide que les afficheurs à tête haute. </br>
+			 Il se compose <b>d'un écran LCD, d'une caméra miniature et d'un capteur gyroscopique.</b> </br>
+			 Le flux d'informations du système est illustré dans l'image ci-dessous </br>
+			 <img class="img-fluid espace" src="images/navicam3.png" alt="fonctionnement Navicam"> </p>
+			 <p class="centre"> Fonctionnement de la Navicam </br> </p>
+			 La vision du monde réel est capturée par la caméra. Les images capturées sont envoyées à la station de travail <b>Unix</b>, puis fusionnées avec les informations générées par l'ordinateur (texte ou graphiques) et renvoyées à l'écran LCD. </br>
+			 Le gyroscope utilisé avec ce système peut signaler les positions dans l'espace. </br>
+			 Une des caractéristiques uniques de NaviCam est sa capacité de reconnaissance d'identité. En analysant les images vidéo de la caméra, elle peut reconnaître un code couleur, qui est une sorte de code à barres, devant la caméra. </br>
+			 Cette capacité permet au système de détecter un objet du monde réel devant le système et de lui présenter des informations concernant cet objet. </br>
+			 <img class="img-fluid espace" src="images/Navicam1.png" alt="Navicam"> </p>
+			 <p class="centre"> Schéma de la Navicam </br> </p>
+			 <p> En effet, l'image ci-dessous est un exemple d'utilisation de la reconnaissance d'identité. Il y a un calandrier avec un code couleur. </br>
+			 L'appareil détecte ce dernier, et reconnaît que l'utilisateur regarde un calendrier. Ensuite, le système récupère les informations du calendrier dans la base de données et les superpose à l'écran. </br>
+			 <img class="img-fluid espace" src="images/navicam2.png" alt="Reconnaissance identité navicam">
+			 <p class="centre"> Reconnaissance d'identité de la Navicam </br> </p>
+			 
+
+		</div>
+
+	</div>
+
+<!-------------------------- Fin de la partie Texte de la page------------------- -->
+
+<!-------------------------- Début de la partie footer ------------------- -->
+
+
+	<footer style="background-color: #008B8B;">
+		<div>
+			<strong>&copy; 2019 BOUHENAF Irfan, AUBRIET Hugo, MOLINA Romain</strong>
+		</div>
+	</footer>
+
+<!-------------------------- Fin de la partie footer ------------------- -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+
+<!-------------------------- Fin de la page en général  ------------------- -->
+
+
+
+
+</html>

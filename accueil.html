@@ -1,0 +1,194 @@
+<!-------------------------- Début de la partie méta information-------------- -->
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+	
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css" >
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8" />
+	<meta name="author" content="Romain Molina/Hugo Aubriet/Irfan Bouhenaf" />
+	<link rel="shortcut icon" type="image/x-icon" href="images/logo2.png" />
+	<title> La Réalité Augmentée  </title>	
+	<meta name="keywords" content="Projet,HTML,Bootstrap,CSS,Site,TechnoWeb" />
+	<meta name="description" content=" Site du projet tutoré" />
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+	<link rel="stylesheet" href="projet.css">
+
+</head>
+<!-------------------------- Fin de la partie méta information -------------- -->
+
+
+<!-------------------------- Début de la page en général  ------------------- -->
+
+<body> 
+	<div class="container" id=debut>
+
+<!-------------------------- Début de la partie NavBar ---------------------- -->
+
+		<nav class="navbar navbar-expand-lg fixed-top navbar-dark" id="fullsize" style="background-color: #5F9EA0;">
+			<div class="Title">
+				<a class="navbar-brand" href="accueil.html">
+					<img id="logo" src="images/logo3-1.png" alt="Logo">
+					La Réalité Augmentée
+				</a>
+			</div>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="accueil.html">Accueil <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="histoireDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Histoire</a>
+						<div class="dropdown-menu" aria-labelledby="histoireDropdown">
+							<a class="dropdown-item" href="histoire.html#hist2">L'épée de Damoclès par Ivan Sutherland (1968)</a>
+							<a class="dropdown-item" href="histoire.html#hist4">Le système HUD (années 1980)</a>
+							<a class="dropdown-item" href="histoire.html#hist5">L'invention de Tom Caudell et David Mizell (début des années 1990)</a>
+							<a class="dropdown-item" href="histoire.html#hist6">L'invention de Rekimoto (1994)</a>
+						</div>
+					</li>
+
+
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="techDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> La technologie actuelle  </a>
+						<div class="dropdown-menu" aria-labelledby="techDropdown">
+							<a class="dropdown-item" href="tech_ac.html#tech1"> Création de solide </a>
+							<a class="dropdown-item" href="tech_ac.html#tech2"> Aide au calcul </a>
+							<a class="dropdown-item" href="tech_ac.html#tech3"> Aide à la navigation</a>
+							<a class="dropdown-item" href="tech_ac.html#tech4"> Divertissement </a>
+							<a class="dropdown-item" href="tech_ac.html#tech5"> Problèmes d'utilisation</a>
+						</div>
+					</li>
+
+					
+					<li class="nav-item">
+						<a class="nav-link" href="futur.html">Avenir</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="sources.html">Sources</a>
+					</li>
+
+					<li class="nav-item">
+						<a class="nav-link" href="personne.html">L'équipe</a>
+					</li>
+				</ul>
+				<span class="navbar-text" id="navtexte">
+					Accueil
+				</span>
+			</div>
+		</nav>
+
+<!--- ----------------------- Fin de la partie NavBar ------------------------- -->
+
+<!-------------------------- Début de la partie Carousel --------------------- -->
+
+
+		<div id="CarouselBox" class="carousel slide col-sm-10 mx-auto mb-5 mt-5" data-interval="5000" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#CarouselBox" data-slide-to="0" class="active"><i class="fas fa-mobile"></i></li>
+				<li data-target="#CarouselBox" data-slide-to="1"><i class="fas fa-mobile" ></i></li>
+				<li data-target="#CarouselBox" data-slide-to="2"><i class="fas fa-mobile" ></i></li>
+			</ol>
+
+			<div class ="carousel-inner">
+				<div class="carousel-item active">
+					<img class="d-block w-100 img-fluid" src="images/histoire.png" alt="Début de la réalité augmentée">
+					<div class="carousel-caption mb-3">
+						<div class ="text_background">
+							<h3>Histoire </h3>
+							<p>La réalité augmentée a une grande histoire derrière elle.</p>
+						</div>
+						<a href="histoire.html" class="btn btn-grey" role="button">Plus d'informations</a>
+						
+					</div>
+
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100 img-fluid" src="images/histoire2.png" alt="Exemple dans le monde actuel">
+					<div class="carousel-caption mb-3">
+						<div class ="text_background">
+							<h3>La technologie actuelle </h3>
+							<p>Le présent de la réalité augmentée. </p>
+						</div>
+						<a href="tech_ac.html" class="btn btn-grey" role="button">Plus d'informations</a>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img class="d-block w-100 img-fluid" src="images/histoire3.png" alt="Exemple dans le futur">
+					<div class="carousel-caption mb-3">
+						<div class ="text_background">
+							<h3>Avenir </h3>
+							<p>L'avenir de la réalité augmentée est-il radieux ?</p>
+						</div>
+						<a href="futur.html" class="btn btn-grey" role="button">Plus d'informations</a>	
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control-prev color" href="#CarouselBox" role="button" data-slide="prev">
+				<i class="fas fa-arrow-left size"></i>
+			</a>
+			<a class="carousel-control-next color" href ="#CarouselBox" role="button" data-slide="next">
+				<i class="fas fa-arrow-right size"></i>
+			</a>
+		</div>
+
+<!-------------------------- FIn de la partie Carousel ------------------- -->
+
+<!-------------------------- Début de la partie Texte de la page------------------- -->
+
+
+
+
+
+
+		<div class="col-sm-10 center-object div-para div-titre">
+			<h2 class="text-center font_title text-fluid"> <b>La Réalité Augmentée </b> </h2>
+
+			
+			<img src="./images/3D.gif" class="gif_title img-fluid" alt="Gif1" height="240" width="350" />
+			<p class="accueil_title"><i><u>Définition:</u> La réalité augmentée désigne une interface virtuelle, en 2D ou en 3D, qui vient enrichir la réalité en y superposant des informations complémentaires.</i> </p>
+			
+			
+		</div> 
+		<div class="col-sm-10 center-object div-para">
+			<p> Elle désigne souvent les différentes méthodes qui permettent d'incruster de façon réaliste des objets virtuels dans une séquence d'images. </br>
+				Ces applications sont multiples et touchent de plus en plus de domaines, tels que les jeux vidéo, l'éducation par le jeu, les chasses au trésor virtuelles, le cinéma et la télévision (post-production, studios virtuels, retransmissions sportives…), les industries (conception, design, maintenance, assemblage, pilotage, robotique et télérobotique, implantation, étude d'impact, etc.) ou le champ médical. 
+				Nous allons étudier le sujet en commencant par <b>l'histoire de la RA, puis la technologie actuelle, et pour finir le futur<b> </br> </p>
+			</p>
+			
+		</div>
+
+	
+
+	</div>
+
+<!-------------------------- Fin de la partie Texte de la page------------------- -->
+
+<!-------------------------- Début de la partie footer ------------------- -->
+
+	<footer style="background-color: #008B8B;">
+		<div>
+			<strong>&copy; 2019 BOUHENAF Irfan, AUBRIET Hugo, MOLINA Romain</strong>
+		</div>
+	</footer>
+
+<!-------------------------- Fin de la partie footer ------------------- -->
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
+
+</body>
+<!-------------------------- Fin de la page en général--------------------------- -->
+
+
+
+</html>

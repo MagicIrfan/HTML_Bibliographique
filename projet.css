@@ -1,0 +1,296 @@
+/*----------------------------------- Début Coeur de la page --------------------------------*/
+
+html
+{
+	min-height: 100%;
+	position: relative;
+}
+
+body
+{
+	margin-top: 5rem;
+	background-image: url('images/650x650.png');
+	background-attachment: fixed;
+	width: 100%;
+}
+
+/*------------------------------------- Fin Coeur de la page ------------------------------*/
+
+/*------------------------------------- Début partie du Carousel --------------------------*/
+#CarouselBox
+{
+	padding: 0px;
+	box-shadow:0px 0px 50px 10px grey;
+}
+
+.carousel-indicators
+{
+	margin:auto;
+	list-style: none;
+	text-align:center;
+}
+
+.carousel-indicators li 
+{
+	text-indent: 0;
+	margin: 0px 2px;
+	width: 30px;
+	height:  30px;
+	line-height: 30px;
+	border-radius: 100%;
+}
+
+.carousel-indicators .active, .carousel-indicators .hover 
+{
+	background-color: rgba(190, 190, 190, 0.8);
+	color: #fff;
+}
+
+.text_background 
+{
+	background-color: rgba(120, 120 ,120 , 0.8);
+	border-radius: 5px;
+}
+
+.btn-grey 
+{
+	background-color: rgb(50,205,50);
+	color: white;
+}
+
+.size
+{
+	font-size:2em;
+}
+/*------------------------------------- Fin partie du Carousel ----------------------------*/
+
+/*------------------------------------- Début de la NavBar --------------------------------*/
+#fullsize
+{
+	width:100%;
+}
+
+img#logo
+{
+	height: 1.5rem;
+	width: 1.5rem;
+}
+.navbar-text
+{
+	font-size:150%;
+	font-weight:bold;
+}
+#navtexte
+{
+	color:white;
+}
+	
+/*------------------------------------- Fin de la Navbar -----------------------------------*/
+
+/*------------------------------------- Debut Mise en page --------------------------------*/
+
+.center-object
+{
+	margin: auto;
+}
+
+.div-para
+{
+	background: linear-gradient(rgb(240,240,240), #C0C0C0);
+	padding: 10px 3% 10px 3%;
+	border-radius: 10px;
+	margin-bottom:50px;
+	box-shadow: 0px 0px 30px 20px #47524a
+}
+
+.col-sm-10 
+{
+	max-width: 900px;
+	
+}
+.text-lenght
+{
+	max-width: 1200px;
+}
+
+footer 
+{
+	color:white;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0px;
+	line-height: 2;
+}
+
+.div-titre
+{
+	padding-right: 30px;
+}
+
+.gif_title
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.accueil_title
+{
+	text-align: center;
+	font-size:150%;
+}
+.espace
+{
+	padding:1em 1em 0em 1em;
+	border-radius: 10px;
+}
+.centre
+{
+	text-align:center;
+	font-style:italic;
+	font-weight:bold;
+}
+
+/*------------------------------------- Fin Mise en page --------------------------------*/
+
+/*------------------------------------- Debut des Cartes --------------------------------*/
+.card-body 
+{
+	background: linear-gradient(rgb(240,240,240),#D3D3D3);
+}
+
+.card span:hover 
+{
+	transform:scale(2);
+}
+.fab
+{
+	width: 40px;
+	height: 40px;
+}
+.fa-twitter 
+{
+	color: #00aced;
+}
+.fa-envelope
+{
+	color: red;
+}
+.fa-facebook
+{
+	color: #3B5998;
+	
+
+}
+.fa-instagram 
+{
+	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+	color: #fff;
+	border-radius: 10px;
+}
+
+.fa-github
+{
+	color: black;
+}
+.fa-cubes
+{
+	width: 30px;
+	height: 50px;
+}
+
+
+.zoomEffect 
+{
+	transition: transform 0.5s;
+}
+.card-footer 
+{
+	text-align: center;
+	display:block;
+}
+.card_title
+{
+	font-size:150%;
+	margin-top:20px;
+	font-weight:bold;
+}
+@media screen and (min-width: 571px) and (max-width: 781px) {
+  .responsive {
+    width:100px;
+	height:100px;
+  }
+}
+
+/*------------------------------------- Fin des Cartes ---------------------------------*/
+
+/*------------------------------------- Début Autre -----------------------------------*/
+.ancre 
+{
+	display: block;
+	height: 4.5rem;
+	margin-top: -4.5rem;
+	visibility: hidden;
+}
+
+@font-face 
+{
+	font-family: space_age;
+	src: url(font/space_age.ttf);
+}
+
+.font_title
+{
+	font-family: space_age;
+	font-size:180%;
+}
+
+.icon 
+{
+	font-size: 2.5rem;
+	margin: 0 0.5rem 0 0.5rem;
+}
+
+img#right
+{
+	float:right;
+	width: 400px;
+	height: 230px;
+	padding-top: 1em;
+	padding-left: 1em;
+}
+img#left
+{
+	float:left;
+	width: 400px;
+	height: 230px;
+	padding-top: 1em;
+	padding-right: 1em;
+}
+img#center
+{
+	float:right;
+	width: 600px;
+	height: 300px;
+	padding-top: 1em;
+	padding-right: 150px;
+}
+.img_para_l
+{	float:left;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-right: 1em;
+	}
+.img_para_r
+{	float:right;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 1em;
+	}
+
+/*------------------------------------- Fin Autres ------------------------------------*/
+
+
+
+
