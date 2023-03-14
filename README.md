@@ -1,4 +1,4 @@
-# HTML_Bibliographique
+# Site bibliographique
 Ce projet a pour but de faire un site web en utilisant les outils tels que le HTML et le CSS ( possibilité d'utiliser Bootstrap4)
 
 Dans ce projet nous nous sommes répartis les taches en 3
